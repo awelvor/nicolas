@@ -13,6 +13,10 @@
     <a class="nav-link disabled" aria-disabled="true">Disabled</a>
   </li>
 </ul>
-
+<nav class="wrapper">
+  {% for item in site.data.navigation %}
+    <a href="{{ item.link }}">{{ item.name }}</a>
+  {% endfor %}
+</nav>
 
 </div>
