@@ -1,9 +1,4 @@
 - name: Home
   link: /
-- name: About
-  link: /about/
-- name: Lorem
-  link: /lorem.html
-- name: Documents
-  link: /documents/index.html
-  
+- name: Accordion
+  link: https://awelvor.github.io/nicolas/accordion.html
