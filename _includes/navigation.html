@@ -1,8 +1,9 @@
 <div class="container">
+  <p>site.url  {{site.url}}</p>
 <nav class="wrapper">
 <ul class="nav mt-5">
   {% for item in site.data.navigation %}
-  <li class="nav-item"><a class="nav-link active" href="{{item.link}}">{{item.name}}</a></li>
+  <li class="nav-item"><a class="nav-link active" href="{{site.url}}/{{item.link}}">{{item.name}}</a></li>
   {% endfor %}
   </ul>
 </nav>
